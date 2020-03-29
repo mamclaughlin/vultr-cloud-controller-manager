@@ -19,7 +19,7 @@ func TestZones_GetZoneByNodeName(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(actual, expected) {
-		t.Errorf("expcted %+v got %+v", expected, actual)
+		t.Errorf("expected %+v got %+v", expected, actual)
 	}
 
 }
@@ -36,6 +36,6 @@ func TestZones_GetZoneByProviderID(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(actual, expected) {
-		t.Errorf("expcted %+v got %+v", expected, actual)
+		t.Errorf("expected %+v got %+v", expected, actual)
 	}
 }

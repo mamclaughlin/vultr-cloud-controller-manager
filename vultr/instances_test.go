@@ -33,7 +33,7 @@ func TestInstances_InstanceExistsByProviderID(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(actual, expected) {
-		t.Errorf("expcted %+v got %+v", expected, actual)
+		t.Errorf("expected %+v got %+v", expected, actual)
 	}
 }
 
@@ -47,7 +47,7 @@ func TestInstances_InstanceShutdownByProviderID(t *testing.T) {
 	}
 
 	if actual {
-		t.Errorf("expcted %+v got %+v", "false", "true")
+		t.Errorf("expected %+v got %+v", "false", "true")
 	}
 }
 
@@ -61,7 +61,7 @@ func TestInstances_InstanceTypeByProviderID(t *testing.T) {
 	}
 
 	if actual != "204" {
-		t.Errorf("expcted %+v got %+v", "204", actual)
+		t.Errorf("expected %+v got %+v", "204", actual)
 	}
 }
 
@@ -90,7 +90,7 @@ func TestInstances_NodeAddressesByProviderID(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(actual, expected) {
-		t.Errorf("expcted %+v got %+v", expected, actual)
+		t.Errorf("expected %+v got %+v", expected, actual)
 	}
 }
 
@@ -119,7 +119,7 @@ func TestInstances_NodeAddresses(t *testing.T) {
 	}
 
 	if !reflect.DeepEqual(actual, expected) {
-		t.Errorf("expcted %+v got %+v", expected, actual)
+		t.Errorf("expected %+v got %+v", expected, actual)
 	}
 }
 
@@ -133,7 +133,7 @@ func TestInstances_InstanceType(t *testing.T) {
 	}
 
 	if actual != "204" {
-		t.Errorf("expcted %+v got %+v", "204", actual)
+		t.Errorf("expected %+v got %+v", "204", actual)
 	}
 }
 
@@ -147,7 +147,7 @@ func TestInstances_InstanceID(t *testing.T) {
 	}
 
 	if actual != "576965" {
-		t.Errorf("expcted %+v got %+v", "204", actual)
+		t.Errorf("expected %+v got %+v", "204", actual)
 	}
 }
 
@@ -161,6 +161,6 @@ func TestInstances_CurrentNodeName(t *testing.T) {
 	}
 
 	if actual != "ccm-test" {
-		t.Errorf("expcted %+v got %+v", "ccm-test", actual)
+		t.Errorf("expected %+v got %+v", "ccm-test", actual)
 	}
 }
